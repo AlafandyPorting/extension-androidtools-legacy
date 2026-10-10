@@ -8,8 +8,14 @@ repositories
 
 android
 {
-	namespace 'org.haxe.extension.androidtools'
-	compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+	// namespace 'org.haxe.extension.androidtools'
+	compileSdkVersion 28 // Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+
+	/*defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+	}*/
+
 	buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
 }
 
